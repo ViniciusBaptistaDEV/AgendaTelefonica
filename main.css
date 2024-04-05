@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(23, 167, 167);
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    justify-content: center;
+    max-width: 500px;
+}
+
+header h1 {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+img {
+    height: 30px;
+    margin-right: 15px;
+}
+
+form button {
+    background-color: rgb(38, 164, 95);
+    color: white;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 21px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+form button:hover {
+    background-color: rgb(19, 232, 54);
+    color: rgb(123, 49, 49);
+}
+
+form input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;    
+}
+
+form {
+    display: flex;
+    margin-bottom: 30px;
+    max-width: 500px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+table {
+    width: 50%;
+}
+
+table td:nth-child(1) {
+    text-align: left;
+}
+
+table td:nth-child(2) {
+    text-align: right;
+}
+
+table tr:nth-child(1) {
+    text-align: left;
+}
+
+table td:nth-child(2) {
+    text-align: right;
+}
+
+table th {
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 18px;
+}
+
+table tbody td {
+    padding-top: 15px;
+    border-bottom: 1px solid rgb(109, 108, 108);
+    font-size: 17px;
+    vertical-align: center;
+    min-width: 120px;
+}
+
+table tfoot td{
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px;
+    border: none;
+    border-top: 2px black solid;
+    width: 100%;
+    max-width: 500%;
+}
+
